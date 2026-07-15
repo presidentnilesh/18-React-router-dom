@@ -1,15 +1,21 @@
-* {
+/*        * ->  this means all the text */
+*{
     margin: 0;
     padding: 0;
+    color : white ;
     box-sizing: border-box;
     font-family: 'helventica neue';
     
   }
-/* Body */
+
+  body {
+    background-color: black;
+  }
 
 html, body {
     width: 100%;
     height: 100%;
+
 }
 h1 {
   position: absolute;
@@ -19,4 +25,17 @@ h1 {
   font-size: 100px;
   text-decoration: underline;
   white-space: nowrap;
+}       
+.nav {
+  display: flex ;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: rgb(25, 123, 159);
+}
+.nav div {
+  display: flex ;
+  align-items: center;
+  gap: 25px;
+ 
 }
